@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 1 of the app after build 1 .' + '\n';
+    response = 'This is version 1 of the app after automted  .' + '\n';
 
     //send the response to the client
     res.send(response);
